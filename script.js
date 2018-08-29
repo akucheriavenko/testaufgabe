@@ -2,11 +2,10 @@ $(function() {
 
     $.validator.addMethod("alpha", function(value, element) {
         return this.optional(element) || value.match(/[A-Z]/);
-
     });
+	
     $.validator.addMethod("numeric", function(value, element) {
         return this.optional(element) || value.match(/[0-9]/);
-
     });
 
 
@@ -71,8 +70,8 @@ $(function() {
 	      }
 	  });
 	    $("#send-form").bind('click', function() {
-        if ($('#register-form').valid()) {
-            $('#register-form').submit();
-        }
-    });
+       		 if ($('#register-form').valid()) {
+           	 $('#register-form').submit();
+       	 }
+   	 });
 })
