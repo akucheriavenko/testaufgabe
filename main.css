@@ -1,0 +1,18 @@
+.error {
+	color: #e85656;
+  	font-size: 13px;
+}
+
+.text-caption {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.center {
+    text-align: center;
+}
+ hr { 
+	width: 27%;
+	margin-top: 12px;
+ }
